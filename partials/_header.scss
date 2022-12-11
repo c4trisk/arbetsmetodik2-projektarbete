@@ -1,0 +1,142 @@
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+
+header{
+  
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  svg{
+    height: 22px;
+    width: 23px
+  }
+  height: 133px;
+  margin-top: 1.5rem;
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+
+  nav{
+
+    ul li{  
+      list-style-type: none;
+   }
+   
+   .top-menu{
+    @include flex(row, space-between, center);
+    // background-color: blue;
+    
+    
+    .sidnavigering{
+      
+      svg{
+        height: 22px;
+        width: 23px
+      }
+      
+      .sid-nav-lankar{
+        @include flex(row, space-between, center);
+
+        margin-left: 1rem;
+
+        .kundservice, .nyhetsbrev, .hitta-butik, .punktpunkt{
+          font-size: 13px;
+          
+          white-space: nowrap;
+          
+          padding: 3% 6%;
+          
+        }
+      }
+    }
+    
+    img{
+        height: 40px;
+        width: 60px;
+    } 
+
+    .varukorg{
+      margin-right: 4rem;
+    }
+    
+    .varukorg-lankar{
+      font-size: 13px;
+      @include flex(row, space-between, center);
+      
+      .login, .favorites, .shoppingbag{
+        @include flex(row, space-between, center);
+        
+        margin-right: 1rem;
+        padding: 0.6rem;
+        white-space: nowrap;
+      }
+
+      .login-text, .favoriter-text, .shoppingbag-text{
+
+        padding: 8%;
+      }
+
+
+    }
+  }
+
+  .bot-menu{
+    white-space: nowrap;
+    margin-top: 2rem; 
+    font-size: 16px;
+    @include flex(row, space-between, center);
+    
+    
+    // .empty{
+    //   background: white;
+      
+    // }
+
+    .produkt-kategorier{
+      @include flex(row, center, center);
+      text-align: center;
+      
+      
+      
+      .dam, .herr, .divided, .baby, .barn, .home, .beauty, .sport, .brands, .hallbarhet{
+        padding: 2.5%;
+       
+      }
+    }
+
+    .seach-input{
+      width: 184px;
+      height: 33px;
+      
+      margin-right: 4rem;
+     .produkt-text-input{
+        padding: 10px;
+      }
+      #search{
+        @include flex(row, start, center);
+        border: none;
+        border-bottom: solid 1px;
+        background: white;
+        width: 100%;
+        text-align: start;
+
+      }
+
+    }
+
+
+  }
+  }
+}
