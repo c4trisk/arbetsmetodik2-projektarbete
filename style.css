@@ -233,15 +233,73 @@ main {
   color: #222;
 }
 
-.placeholder {
+.puss-in-boots {
   width: 100vw;
-  height: 200px;
-  background-color: rgb(126, 126, 126);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
+.puss-in-boots .puss-in-boots-container {
+  display: flex;
+}
+.puss-in-boots .puss-in-boots-container img {
+  width: 480px;
+  height: 720px;
+}
+.puss-in-boots .ad-desc {
+  width: 480px;
+  height: 720px;
+  background-color: #f1ebdf;
+  color: #e50010;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.puss-in-boots .ad-desc .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.puss-in-boots .ad-desc .top img {
+  width: auto;
+  height: 24px;
+}
+.puss-in-boots .ad-desc .middle {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.puss-in-boots .ad-desc .bottom {
+  color: black;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.puss-in-boots .ad-desc .bottom .buttons {
+  margin-bottom: 15px;
+}
+.puss-in-boots .ad-desc .bottom .buttons button {
+  padding: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid black;
+  outline: none;
+}
+.puss-in-boots .ad-desc .bottom .buttons button:hover {
+  text-decoration: underline;
+}
 .magazine {
   width: 100%;
   height: 678.53px;
