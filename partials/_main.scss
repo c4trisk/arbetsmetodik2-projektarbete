@@ -23,7 +23,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     img {
-        margin-top: 6rem;
+        margin-top: 3rem;
         width: 90%;
     }
     .campaign-ul {
@@ -42,9 +42,9 @@ main {
         background-color: #d5d5d5;
     }
     #draped-dress {
-        position: absolute;
-        top: 38.5%;
-        left: 33.8%;
+        position: relative;
+        top: 150px;
+        right: 150px;
         padding: 1rem;
         text-decoration: none;
         background-color: #222;
@@ -109,6 +109,8 @@ main {
     width: 144px;
     height: 180px;
     scroll-snap-align: start;
+    text-decoration: none;
+    color: #000;
     #img {
         height: 100px;
         width: 100px;
