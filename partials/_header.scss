@@ -1,4 +1,3 @@
-
 @mixin flex($direction, $justify, $align) {
   display: flex;
   flex-direction: $direction;
@@ -6,9 +5,11 @@
   align-items: $align;
 }
 
+// *{
+//   background-color: darkblue;
+// }
 
 header{
-  
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -16,6 +17,7 @@ header{
     height: 22px;
     width: 23px
   }
+
   height: 133px;
   margin-top: 1.5rem;
   
@@ -27,17 +29,13 @@ header{
     'opsz' 48
   }
 
-
   nav{
-
     ul li{  
       list-style-type: none;
    }
    
    .top-menu{
     @include flex(row, space-between, center);
-    // background-color: blue;
-    
     
     .sidnavigering{
       
@@ -53,10 +51,13 @@ header{
 
         .kundservice, .nyhetsbrev, .hitta-butik, .punktpunkt{
           font-size: 13px;
-          
           white-space: nowrap;
-          
           padding: 3% 6%;
+          
+          
+        }
+        .punktpunkt{
+          @include flex(row, center, center);
           
         }
       }
@@ -67,13 +68,14 @@ header{
         width: 60px;
     } 
 
-    .varukorg{
-      margin-right: 4rem;
-    }
+    // .varukorg{
+    //   margin-right: 1.5rem;
+    // }
     
     .varukorg-lankar{
       font-size: 13px;
       @include flex(row, space-between, center);
+      
       
       .login, .favorites, .shoppingbag{
         @include flex(row, space-between, center);
@@ -84,11 +86,8 @@ header{
       }
 
       .login-text, .favoriter-text, .shoppingbag-text{
-
         padding: 8%;
       }
-
-
     }
   }
 
@@ -97,30 +96,31 @@ header{
     margin-top: 2rem; 
     font-size: 16px;
     @include flex(row, space-between, center);
+
+    .produkt-kategori-styling{
+      background-color: white;
+       width: 936px;
+       text-align: center;
+      //  border: 2px solid;
+     }
     
-    
-    // .empty{
-    //   background: white;
-      
-    // }
 
     .produkt-kategorier{
       @include flex(row, center, center);
-      text-align: center;
+      // text-align: start;
       
       
       
       .dam, .herr, .divided, .baby, .barn, .home, .beauty, .sport, .brands, .hallbarhet{
-        padding: 2.5%;
-       
+        padding: 0 16px;
+        
       }
     }
 
     .seach-input{
       width: 184px;
       height: 33px;
-      
-      margin-right: 4rem;
+      margin-right: 2.5rem;
      .produkt-text-input{
         padding: 10px;
       }

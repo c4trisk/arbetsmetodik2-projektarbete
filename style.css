@@ -36,12 +36,15 @@ header nav .top-menu .sidnavigering .sid-nav-lankar .kundservice, header nav .to
   white-space: nowrap;
   padding: 3% 6%;
 }
+header nav .top-menu .sidnavigering .sid-nav-lankar .punktpunkt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 header nav .top-menu img {
   height: 40px;
   width: 60px;
-}
-header nav .top-menu .varukorg {
-  margin-right: 4rem;
 }
 header nav .top-menu .varukorg-lankar {
   font-size: 13px;
@@ -71,20 +74,24 @@ header nav .bot-menu {
   justify-content: space-between;
   align-items: center;
 }
+header nav .bot-menu .produkt-kategori-styling {
+  background-color: white;
+  width: 936px;
+  text-align: center;
+}
 header nav .bot-menu .produkt-kategorier {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 header nav .bot-menu .produkt-kategorier .dam, header nav .bot-menu .produkt-kategorier .herr, header nav .bot-menu .produkt-kategorier .divided, header nav .bot-menu .produkt-kategorier .baby, header nav .bot-menu .produkt-kategorier .barn, header nav .bot-menu .produkt-kategorier .home, header nav .bot-menu .produkt-kategorier .beauty, header nav .bot-menu .produkt-kategorier .sport, header nav .bot-menu .produkt-kategorier .brands, header nav .bot-menu .produkt-kategorier .hallbarhet {
-  padding: 2.5%;
+  padding: 0 16px;
 }
 header nav .bot-menu .seach-input {
   width: 184px;
   height: 33px;
-  margin-right: 4rem;
+  margin-right: 2.5rem;
 }
 header nav .bot-menu .seach-input .produkt-text-input {
   padding: 10px;
