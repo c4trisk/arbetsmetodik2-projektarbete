@@ -98,11 +98,17 @@ main {
 
 .slide {
     @include flex(row, space-between, center);
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
 .slide-item {
     text-align: center;
     width: 144px;
+    height: 180px;
+    scroll-snap-align: start;
     #img {
         height: 100px;
         width: 100px;
@@ -112,6 +118,7 @@ main {
     }
     .slide-category {
         margin-top: .5rem;
+        color: #222;
     }
 }
 

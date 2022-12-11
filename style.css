@@ -105,11 +105,18 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 
 .slide-item {
   text-align: center;
   width: 144px;
+  height: 180px;
+  scroll-snap-align: start;
 }
 .slide-item #img {
   height: 100px;
@@ -120,6 +127,7 @@ main {
 }
 .slide-item .slide-category {
   margin-top: 0.5rem;
+  color: #222;
 }
 
 * {
