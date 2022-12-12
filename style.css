@@ -233,6 +233,88 @@ main {
   color: #222;
 }
 
+.styleboards {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.styleboards .heading {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+.styleboards .heading h3 {
+  font-size: 20px;
+}
+.styleboards .visa-alla {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.styleboards .visa-alla p {
+  font-size: 13px;
+}
+.styleboards .visa-alla i {
+  font-size: 24px;
+}
+.styleboards .container {
+  width: 960px;
+  height: 305px;
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.styleboards .container .slide-item {
+  width: 304px;
+  height: 281px;
+}
+.styleboards .container .slide-item .img {
+  width: 304px;
+  height: 225px;
+  background-color: rgb(255, 255, 255);
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-bottom: -4px;
+}
+.styleboards .container .img-desc {
+  width: 304px;
+  height: 56px;
+  background-color: white;
+  display: flex;
+}
+.styleboards .container .logo {
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  margin-left: 7px;
+  border-radius: 50%;
+}
+.styleboards .container .logo-desc {
+  display: flex;
+  margin-left: 5px;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  font-size: 14px;
+}
+.styleboards .container .logo-desc i {
+  font-size: 24px;
+}
+.styleboards .container .logo-desc p:first-of-type {
+  font-weight: bold;
+  font-size: 16px111;
+}
+.styleboards .container .text {
+  text-align: left;
+}
+
 .mysiga-stunder {
   width: 100vw;
   display: flex;
