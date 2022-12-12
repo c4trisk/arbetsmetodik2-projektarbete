@@ -20,10 +20,6 @@ header nav .top-menu {
   justify-content: space-between;
   align-items: center;
 }
-header nav .top-menu .sidnavigering svg {
-  height: 22px;
-  width: 23px;
-}
 header nav .top-menu .sidnavigering .sid-nav-lankar {
   display: flex;
   flex-direction: row;
@@ -36,12 +32,19 @@ header nav .top-menu .sidnavigering .sid-nav-lankar .kundservice, header nav .to
   white-space: nowrap;
   padding: 3% 6%;
 }
-header nav .top-menu img {
+header nav .top-menu .sidnavigering .sid-nav-lankar .punktpunkt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header nav .top-menu .logo-container {
+  position: absolute;
+  margin-left: 48%;
+}
+header nav .top-menu .logo-container img {
   height: 40px;
   width: 60px;
-}
-header nav .top-menu .varukorg {
-  margin-right: 4rem;
 }
 header nav .top-menu .varukorg-lankar {
   font-size: 13px;
@@ -71,20 +74,66 @@ header nav .bot-menu {
   justify-content: space-between;
   align-items: center;
 }
+header nav .bot-menu p {
+  font-size: 13px;
+}
+header nav .bot-menu h3 {
+  font-size: 13px;
+  font-weight: bold;
+}
+header nav .bot-menu .produkt-kategori-styling {
+  background-color: white;
+  width: 936px;
+  text-align: center;
+  margin-left: 230px;
+}
 header nav .bot-menu .produkt-kategorier {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 header nav .bot-menu .produkt-kategorier .dam, header nav .bot-menu .produkt-kategorier .herr, header nav .bot-menu .produkt-kategorier .divided, header nav .bot-menu .produkt-kategorier .baby, header nav .bot-menu .produkt-kategorier .barn, header nav .bot-menu .produkt-kategorier .home, header nav .bot-menu .produkt-kategorier .beauty, header nav .bot-menu .produkt-kategorier .sport, header nav .bot-menu .produkt-kategorier .brands, header nav .bot-menu .produkt-kategorier .hallbarhet {
-  padding: 2.5%;
+  padding: 0 16px;
+  position: relative;
+}
+header nav .bot-menu .produkt-kategorier .dropdown-content-dam {
+  display: none;
+  position: absolute;
+  margin-left: -390px;
+  background-color: #f9f9f9;
+  width: 100vw;
+  z-index: 1;
+}
+header nav .bot-menu .produkt-kategorier .dam:hover .dropdown-content-dam {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header nav .bot-menu .produkt-kategorier .dam:hover .dropdown-content-dam h3:first-of-type {
+  margin-top: 25px;
+}
+header nav .bot-menu .produkt-kategorier .dam:hover .dropdown-content-dam h3, header nav .bot-menu .produkt-kategorier .dam:hover .dropdown-content-dam p {
+  padding: 0.3rem 0;
+  margin-left: 350px;
+}
+header nav .bot-menu .produkt-kategorier .dam:hover .dropdown-content-dam .dam-left-dropown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+header nav .bot-menu .produkt-kategorier .dam:hover .dropdown-content-dam .dam-mid-dropown-content, header nav .bot-menu .produkt-kategorier .dam:hover .dropdown-content-dam .dam-right-dropown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
 }
 header nav .bot-menu .seach-input {
   width: 184px;
   height: 33px;
-  margin-right: 4rem;
+  margin-right: 2.5rem;
 }
 header nav .bot-menu .seach-input .produkt-text-input {
   padding: 10px;
