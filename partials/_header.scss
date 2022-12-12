@@ -5,9 +5,9 @@
   align-items: $align;
 }
 
-// *{
-//   background-color: darkblue;
-// }
+//  *{
+//    background-color: brown;
+//  }
 
 header{
   box-sizing: border-box;
@@ -36,13 +36,10 @@ header{
    
    .top-menu{
     @include flex(row, space-between, center);
+    // position: relative;
     
     .sidnavigering{
       
-      svg{
-        height: 22px;
-        width: 23px
-      }
       
       .sid-nav-lankar{
         @include flex(row, space-between, center);
@@ -62,15 +59,18 @@ header{
         }
       }
     }
-    
-    img{
+    .logo-container{
+      position: absolute;
+      margin-left: 48%;
+      img{
         height: 40px;
         width: 60px;
     } 
 
-    // .varukorg{
-    //   margin-right: 1.5rem;
-    // }
+    }
+    
+
+    
     
     .varukorg-lankar{
       font-size: 13px;
@@ -92,6 +92,13 @@ header{
   }
 
   .bot-menu{
+    p{
+      font-size: 13px;
+    }
+    h3{
+      font-size: 13px;
+      font-weight: bold;
+    }
     white-space: nowrap;
     margin-top: 2rem; 
     font-size: 16px;
@@ -102,19 +109,67 @@ header{
        width: 936px;
        text-align: center;
       //  border: 2px solid;
+      margin-left: 230px
+      
      }
     
 
     .produkt-kategorier{
       @include flex(row, center, center);
+      
+     
+
       // text-align: start;
-      
-      
-      
+
       .dam, .herr, .divided, .baby, .barn, .home, .beauty, .sport, .brands, .hallbarhet{
         padding: 0 16px;
-        
+        // background-color: blue;
+        position: relative;
       }
+
+      .dropdown-content-dam{
+          display: none;
+          position: absolute;
+          margin-left: -390px;
+          background-color: #f9f9f9;
+          width: 100vw;
+          // min-width: 160px;
+          // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          // padding: 12px 16px;
+          z-index: 1;
+          // width: 1440px;
+          // width: 100%;
+          // height: 100%;
+        }
+        .dam:hover .dropdown-content-dam{
+          @include flex(row, center, center);
+          // background: gray;
+          // background-color: red;
+
+          h3:first-of-type{
+            margin-top: 25px;
+          }
+
+          h3,p{
+            padding: 0.3rem 0;
+            margin-left: 350px;
+          }
+
+          .dam-left-dropown-content{
+            @include flex(column, start, start);
+            // border: 2px solid;
+          }
+          .dam-mid-dropown-content, .dam-right-dropown-content{
+            @include flex(column, flex-end, start);
+            // border: 2px solid;
+          }
+
+
+
+
+          
+        } 
+        
     }
 
     .seach-input{
