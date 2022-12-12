@@ -1,3 +1,26 @@
+body {
+   /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(228, 228, 228);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(184, 184, 184);
+  } 
+}
+
 .stilinspiration {
   width: 100vw;
   margin-top: 20px;
