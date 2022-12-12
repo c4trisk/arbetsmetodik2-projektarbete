@@ -23,7 +23,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     img {
-        margin-top: 6rem;
+        margin-top: 3rem;
         width: 90%;
     }
     .campaign-ul {
@@ -42,9 +42,9 @@ main {
         background-color: #d5d5d5;
     }
     #draped-dress {
-        position: absolute;
-        top: 38.5%;
-        left: 33.8%;
+        position: relative;
+        top: 150px;
+        right: 150px;
         padding: 1rem;
         text-decoration: none;
         background-color: #222;
@@ -90,35 +90,66 @@ main {
 
 .pop-container {
     width: 960px;
-    margin-bottom: 5rem;
+    // margin-bottom: 5rem;
     h3 {
         margin-bottom: 2rem;
     }
+}
+
+#finnsnu {
+    margin-bottom: 1rem;
 }
 
 .slide {
     @include flex(row, space-between, center);
     gap: 1rem;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
+    // scroll-snap-type: x mandatory;
+    // scroll-behavior: smooth;
 }
 
 .slide-item {
     text-align: center;
-    width: 144px;
-    height: 180px;
-    scroll-snap-align: start;
-    #img {
+    // width: 144px;
+    height: 200px;
+    // scroll-snap-align: start;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    img {
         height: 100px;
         width: 100px;
         border-radius: 50%;
-        background-color: #333;
+        object-fit: cover;
         margin: auto;
+    }
+    .img-round {
+        @include flex(column, center, center);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #bf836f;
+        margin: auto;
+        color: #fff;
+        p {
+            font-size: 22px;
+        }
     }
     .slide-category {
         margin-top: .5rem;
-        color: #222;
+        color: #707070;
+    }
+    .img-square {
+        @include flex(column, center, center);
+        width: 150px;
+        height: 150px;
+        border-radius: 0;
+        background-color: #bf836f;
+        margin: auto;
+        color: #fff;
+        p {
+            font-size: 22px;
+        }
     }
 }
 
