@@ -314,12 +314,72 @@ main {
   font-size: 22px;
 }
 
+body {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+body ::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+body ::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+body ::-webkit-scrollbar-thumb {
+  background: rgb(228, 228, 228);
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgb(184, 184, 184);
+}
+
+.stilinspiration {
+  width: 100vw;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+.stilinspiration h3 {
+  width: 960px;
+}
+.stilinspiration .container {
+  width: 960px;
+  height: 552px;
+  display: flex;
+  gap: 22px;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.stilinspiration .insp-img {
+  border-radius: 0;
+  width: 304px;
+  height: 488px;
+}
+.stilinspiration .slide-item {
+  width: 304px;
+  height: 516px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.stilinspiration .slide-item p {
+  text-align: left;
+  margin-top: 8px;
+}
+
 .styleboards {
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  margin-top: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .styleboards .heading {
@@ -363,6 +423,7 @@ main {
   -o-object-fit: fill;
      object-fit: fill;
   margin-bottom: -4px;
+  border-radius: 0;
 }
 .styleboards .container .img-desc {
   width: 304px;
