@@ -146,17 +146,16 @@ header{
           left: 0;
           display: flex;
           flex-direction: column;
-          background: white;
+          
           width: 100vw;
-          z-index: -1;
+          z-index: 1;
           
           .dam-dropdown-content{
+            background: white;
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
           grid-template-rows: 80vh;
           border-bottom: 7px solid;
-          
-          background: white;
 
           .dam-dropdown-content-left{
             margin-top: 30px;
@@ -210,7 +209,7 @@ header{
           width: 100vw;
       
        .herr-dropdown-content{
-        // border: 3px solid yellow;
+        background: white;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 75vh;
@@ -281,6 +280,7 @@ header{
 
 
  .divided-dropdown-content{
+  background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 75vh;
@@ -354,6 +354,7 @@ header{
    width: 100vw;
 
  .baby-dropdown-content{
+  background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 75vh;
@@ -421,6 +422,7 @@ header{
    width: 100vw;
 
  .barn-dropdown-content{
+  background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 75vh;
@@ -487,6 +489,7 @@ header{
   width: 100vw;
 
  .home-dropdown-content{
+  background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 75vh;
@@ -550,6 +553,7 @@ header{
     width: 100vw;
 
  .beauty-dropdown-content{
+  background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 75vh;
@@ -618,6 +622,7 @@ header{
    width: 100vw;
    
    .sport-dropdown-content{
+    background: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 75vh;
@@ -688,6 +693,7 @@ header{
   width: 100vw;
 
  .hallbarhet-dropdown-content{
+  background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 75vh;
