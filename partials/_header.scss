@@ -5,193 +5,759 @@
   align-items: $align;
 }
 
-//  *{
-//    background-color: brown;
+// *{
+//   background-color: rgb(7, 41, 7);
 //  }
 
 header{
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  white-space: nowrap;
+ 
   svg{
     height: 22px;
     width: 23px
   }
 
-  height: 133px;
-  margin-top: 1.5rem;
-  
-  .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
+  img{
+    height: 40px;
+    width: 60px;
+} 
 
+  // height: 133px;
+  // margin-top: 1.5rem;
+  
   nav{
     ul li{  
-      list-style-type: none;
+    list-style-type: none;
+    // @include flex(row, center, center);
    }
    
    .top-menu{
-    @include flex(row, space-between, center);
-    // position: relative;
+    margin-top: 16px;
+   
+    ul li{
+      font-size: .8125rem;
+      // padding: 1%;
+    }
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 68px;
+
+//  Top Menu Left Content  //
+
+   .sidnavigering{
+    @include flex(row, start, center);
     
-    .sidnavigering{
-      
-      
-      .sid-nav-lankar{
-        @include flex(row, space-between, center);
+    .sid-nav-lankar{
+        @include flex(row, start, center);
+        margin-left: 32px;
 
-        margin-left: 1rem;
-
-        .kundservice, .nyhetsbrev, .hitta-butik, .punktpunkt{
-          font-size: 13px;
-          white-space: nowrap;
-          padding: 3% 6%;
-          
-          
+        .nyhetsbrev, .hitta-butik, .punktpunkt{
+          margin-left: 22px;
         }
+
         .punktpunkt{
           @include flex(row, center, center);
-          
         }
       }
     }
+
+ //  Top Menu Middle Content  //   
+    
     .logo-container{
-      position: absolute;
-      margin-left: 48%;
-      img{
-        height: 40px;
-        width: 60px;
-    } 
-
+      @include flex(row, center, center);
+      margin-top: 25px;
     }
-    
 
-    
-    
-    .varukorg-lankar{
-      font-size: 13px;
-      @include flex(row, space-between, center);
-      
-      
-      .login, .favorites, .shoppingbag{
-        @include flex(row, space-between, center);
-        
-        margin-right: 1rem;
-        padding: 0.6rem;
-        white-space: nowrap;
-      }
+ //  Top Menu Right Content  //   
 
-      .login-text, .favoriter-text, .shoppingbag-text{
-        padding: 8%;
+    .varukorg{
+      @include flex(row, end, center);
+      .varukorg-lankar{
+        @include flex(row, end, center);
+        margin-right: 32px;
+
+        .login, .favorites, .shoppingbag{
+          @include flex(row, start, center);
+          svg{
+            margin-right: 10px;
+          }
+
+        }
+        .login, .favorites{
+          margin-right: 22px;
+          
+        }
       }
     }
   }
+ 
+
+
+
+//----- BOTTOM NAV MENU ------// 
 
   .bot-menu{
+    margin-top: 30px;
+    ul li{
+      font-size: 1rem;
+    }
+    
+    svg{
+      height: 24px;
+      width: 24px;
+    }
+
     p{
       font-size: 13px;
     }
+
     h3{
       font-size: 13px;
       font-weight: bold;
     }
-    white-space: nowrap;
-    margin-top: 2rem; 
-    font-size: 16px;
-    @include flex(row, space-between, center);
+
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+    grid-template-rows: 40px;
 
     .produkt-kategori-styling{
-      background-color: white;
-       width: 936px;
-       text-align: center;
-      //  border: 2px solid;
-      margin-left: 230px
+       @include flex(row, center, center);
       
+       .produkt-kategorier{
+        @include flex(row, center, center);
+        
+        .dam, .herr, .divided, .baby, .barn, .home, .beauty, .sport, .brands, .hallbarhet{
+          padding: 0 20px;
+        }
+
+//--------- Dam dropdown content----------//
+
+      .dam .hidden{
+        display: none;
+        position: absolute;
+      }
+      .dam:hover{
+           #border-dam{
+            border-bottom: 1px solid;
+           }
+          .hidden{
+          left: 0;
+          display: flex;
+          flex-direction: column;
+          
+          width: 100vw;
+          z-index: 1;
+          
+          .dam-dropdown-content{
+            margin-top: 7px;
+            background: white;
+
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+          grid-template-rows: 80vh;
+          border-bottom: 7px solid;
+
+          .dam-dropdown-content-left{
+            margin-top: 30px;
+            p{padding-top: 6px;
+            }
+
+            .christmas, .party, .gifts{
+              margin-top: 30px;
+            }
+          }
+
+          .dam-dropdown-content-mid{
+             margin-top: 30px;
+             p{padding-top: 6px;
+           }
+          }
+
+          .dam-dropdown-content-right{
+            margin-top: 30px;
+           p{padding-top: 6px;
+            }
+            .second-hand, .hallbarhet-dropdown, .magazine-dropdown{
+              margin-top: 30px;
+            }
+            }
+             
+           .tom {
+             margin-top: 30px;
+            }
+        }
+       }
+      }
+//-------- Dam Dropdown Content slutar här------//  
+
+
+//--------- Herr Dropdown Content-------------// 
+
+       .herr .hidden-herr{
+        display: none;
+        position: absolute;
+      }
+      .herr:hover{
+        span{
+          border-bottom: 1px solid;
+        }
+        .hidden-herr{
+         left: 0;
+         display: flex;
+         flex-direction: column;
+         z-index: 1;
+          width: 100vw;
+      
+       .herr-dropdown-content{
+        background: white;
+        margin-top: 7px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 75vh;
+        border-bottom: 7px solid;
+
+        .herr-dropdown-content-left{
+          margin-top: 30px;
+         
+          p{padding-top: 6px;
+          }
+
+          .herr-essentials, .winter-lookbook, .herr-trendigt{
+           margin-top: 35px;
+        }
+        }
+
+        .herr-dropdown-content-mid-left{
+          margin-top: 30px;
+          p{padding-top: 6px;
+         }
+        }
+        .herr-dropdown-content-mid-right{
+        margin-top: 30px;
+        p{padding-top: 6px;
+         }
+
+        }
+
+
+        .herr-dropdown-content-right{
+          margin-top: 30px;
+          // border: 2px solid white;
+          p{padding-top: 6px;
+          }
+          .herr-second-hand, .herr-hallbarhet-dropdown, .herr-magazine-dropdown{
+            margin-top: 35px;
+          }
+          }
+         .herr-tom {
+           margin-top: 30px;
+          //  border: 2px solid;
+          }
+      }
+     }
      }
     
+    
+//--- Herr Dropdown Content slutar här -------//
 
-    .produkt-kategorier{
-      @include flex(row, center, center);
+//----Divided Dropdown Content-------//  
+
+.divided .hidden-divided{
+  display: none;
+  position: absolute;
+
+}
+.divided:hover{
+  span{
+    border-bottom: 1px solid;
+  }
+  .hidden-divided{
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   z-index: 1;
+   width: 100vw;
+   
+
+
+ .divided-dropdown-content{
+  margin-top: 7px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75vh;
+  border-bottom: 7px solid;
+  
+   .divided-dropdown-content-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+    }
+
+    .divided-trend{
+      margin-top: 35px;
+    }
+    }
+  
+
+  .divided-dropdown-content-mid-left{
+   margin-top: 30px;
+    p {padding-top: 6px;
+  }
+}
+
+.divided-dropdown-content-mid-right{
+  margin-top: 30px;
+   p {padding-top: 6px;
+ }
+.divided-hallbarhet, .divided-gifts{
+  margin-top: 35px;
+}
+}
+
+  .divided-dropdown-content-right{
+    
+    margin-top: 30px;
+
+    p{padding-top: 6px;
+    }
+
+    // .divided-hallbarhet{
+    //   margin-top: 35px;
+    // }
+    }
+    .divided-tom {
+      margin-top: 30px;
+     }
+
+}
+}
+}
+
+
+// ---Divided Dropdown slutar här ------// 
+   
+// ---Baby Dropdown  ------// 
+.baby .hidden-baby{
+  display: none;
+  position: absolute;
+
+}
+.baby:hover{
+  
+  span{
+    border-bottom: 1px solid;
+  }
+
+   .hidden-baby{
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   z-index: 1;
+   width: 100vw;
+
+ .baby-dropdown-content{
+  margin-top: 7px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75vh;
+  border-bottom: 7px solid;
+
+  .baby-dropdown-content-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+    }
+    .hmbaby, .baby-populart, .baby-gifts{
+      margin-top: 30px;
+    }
+}
+
+  .baby-dropdown-content-mid-left{
+    
+    margin-top: 30px;
+   p{padding-top: 6px;
+    }
+     .baby-flicka{
+      margin-top: 30px;
+    } 
+   }
+
+ .baby-dropdown-content-mid-right{
+  margin-top: 30px;
+  p{padding-top: 6px;
+    }
+    .baby-produkter{
+      margin-top: 30px;
+    }
+  }
+  .baby-dropdown-content-right{
+    margin-top: 30px;
+     p{padding-top: 6px;
+    }
+    .baby-secondhand, .baby-hallbarhet{
+      margin-top: 30px;
+    }
+
+  }
+
+ 
+}
+}
+}
+
+// ---Baby Dropdown slutar här ------// 
+
+// ---Barn Dropdown  ------// 
+.barn .hidden-barn{
+  display: none;
+  position: absolute;
+
+}
+.barn:hover{
+  span{
+    border-bottom: 1px solid;
+  }
+  .hidden-barn{
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   z-index: 1;
+   width: 100vw;
+
+ .barn-dropdown-content{
+  margin-top: 7px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75vh;
+  border-bottom: 7px solid;
+
+  .barn-dropdown-content-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+    }
+    .hmbarn, .barn-populart, .barn-gifts, .barn-flicka2-8{
+      margin-top: 30px;
+    }
+  }
+
+  .barn-dropdown-content-mid-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+   }
+   .barn-flicka9-14{
+    margin-top: 30px;
+   }
+  }
+
+  .barn-dropdown-content-mid-right{
+    margin-top: 30px;
+    p{padding-top: 6px;
+   }
+   .barn-produkter, .barn-leksaker, .barn-kroppsvard{
+    margin-top: 30px;
+   }
+  }
+  .barn-dropdown-content-right{
+    margin-top: 30px;
+    p{padding-top: 6px;
+   }
+   .barn-varumarken, .barn-secondhand, .barn-hallbarhet{
+    margin-top: 30px;
+   }
+  }
+}
+}
+}
+
+
+// ---Barn Dropdown slutar här ------// 
+
+// ---HOME Dropdown  ------// 
+.home .hidden-home{
+  display: none;
+  position: absolute;
+
+}
+.home:hover{
+  
+  span{
+    border-bottom: 1px solid;
+  }
+
+   .hidden-home{
+   left: 0;
+  display: flex;
+   flex-direction: column;
+  z-index: 1;
+  width: 100vw;
+
+ .home-dropdown-content{
+  margin-top: 7px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75vh;
+  border-bottom: 7px solid;
+
+  .home-dropdown-content-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+    }
+    .home-rum, .home-trend{
+      margin-top: 30px;
+
+    }
+
+  }
+  .home-dropdown-content-mid-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+   }
+  }
+  .home-dropdown-content-mid-right{
+    margin-top: 30px;
+    p{padding-top: 6px;
+   }
+  }
+
+  .home-dropdown-content-right{
+    
+    margin-top: 30px;
+
+   p{padding-top: 6px;
+    }
+    .home-koncept, .home-hallbarhet{
+      margin-top: 30px;
+    }
+     }
+}
+}
+}
+
+// ---HOME Dropdown slutar här ------// 
+
+
+// ---Beauty Dropdown  ------// 
+ .beauty .hidden-beauty{
+   display: none;
+   position: absolute;
+
+}
+.beauty:hover{
+  
+  span{
+    border-bottom: 1px solid;
+  }
+
+   .hidden-beauty{
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 100vw;
+
+ .beauty-dropdown-content{
+  margin-top: 7px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75vh;
+  border-bottom: 7px solid;
+
+  .beauty-dropdown-content-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+    }
+
+    .beauty-populart, .beauty-gifts{
+      margin-top: 30px;
+    }
+
+  }
+
+   .beauty-dropdown-content-mid-left{
+    
+    margin-top: 30px;
+    p{padding-top: 6px;
+   }
+ }
+
+    .beauty-dropdown-content-mid-right{
+    
+   margin-top: 30px;
+  p{padding-top: 6px;
+   }
+   }
+
+  .beauty-dropdown-content-right{
+    
+    margin-top: 30px;
+
+    p{padding-top: 6px;
+    }
+    .beauty-secondhand{
+      margin-top: 30px;
+    }
+
+    
+    }
+
+
+}
+}
+}
+
+// ---Beauty Dropdown slutar här ------//
+
+// ---Sport Dropdown  ------// 
+
+.sport .hidden-sport{
+  display: none;
+  position: absolute;
+}
+.sport:hover{
+  span{
+    border-bottom: 1px solid;
+  }
+  .hidden-sport{
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   z-index: 1;
+   width: 100vw;
+   
+   .sport-dropdown-content{
+    margin-top: 7px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75vh;
+    border-bottom: 7px solid;
+    
+    .sport-dropdown-content-left{
+      margin-top: 30px;
+      p{padding-top: 6px;
+      }
+    }
+    .sport-dropdown-content-mid-left{
+      margin-top: 30px;
+      p{padding-top: 6px;
+      }
+      .sport-barn{
+        margin-top: 30px;
+      }
+    }
+    .sport-dropdown-content-mid-right{
+      margin-top: 30px;
+      p{padding-top: 6px;
+      }
+      .sport-secondhand{
+        margin-top: 30px;
+      }
+    }
+    .sport-dropdown-content-right{
+      margin-top: 30px;
+      p{padding-top: 6px;
+      }
+      .sport-gifts{
+        margin-top: 30px;
+      }
+    }
+
+}
+}
+}
+// ---Sport Dropdown slutar här ------// 
+
+// ---&Brands Dropdown  ------// 
+
+.brands:hover{
+  
+  span{
+    border-bottom: 1px solid;
+  }
+}
+// ---&Brands Dropdown slutar här ------//
+
+// ---Hållbarhet Dropdown  ------// 
+.hallbarhet .hidden-hallbarhet{
+  display: none;
+  position: absolute;
+
+}
+.hallbarhet:hover{
+  
+  span{
+    border-bottom: 1px solid;
+  }
+
+   .hidden-hallbarhet{
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   z-index: 1;
+   width: 100vw;
+
+ .hallbarhet-dropdown-content{
+  margin-top: 7px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75vh;
+  border-bottom: 7px solid;
+
+  .hallbarhet-dropdown-content-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+    }
+  }
+
+  .hallbarhet-dropdown-content-mid-left{
+    margin-top: 30px;
+    p{padding-top: 6px;
+    }
+    .hallbarhet-engagemang{
+      margin-top: 30px
+    }
+  }
+ }
+}
+}
+// ---Hållbarhet Dropdown slutar här ------// 
+
       
-     
 
-      // text-align: start;
+    
 
-      .dam, .herr, .divided, .baby, .barn, .home, .beauty, .sport, .brands, .hallbarhet{
-        padding: 0 16px;
-        // background-color: blue;
-        position: relative;
-      }
-
-      .dropdown-content-dam{
-          display: none;
-          position: absolute;
-          margin-left: -390px;
-          background-color: #f9f9f9;
-          width: 100vw;
-          // min-width: 160px;
-          // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          // padding: 12px 16px;
-          z-index: 1;
-          // width: 1440px;
-          // width: 100%;
-          // height: 100%;
-        }
-        .dam:hover .dropdown-content-dam{
-          @include flex(row, center, center);
-          // background: gray;
-          // background-color: red;
-
-          h3:first-of-type{
-            margin-top: 25px;
-          }
-
-          h3,p{
-            padding: 0.3rem 0;
-            margin-left: 350px;
-          }
-
-          .dam-left-dropown-content{
-            @include flex(column, start, start);
-            // border: 2px solid;
-          }
-          .dam-mid-dropown-content, .dam-right-dropown-content{
-            @include flex(column, flex-end, start);
-            // border: 2px solid;
-          }
-
-
-
-
-          
-        } 
-        
-    }
-
-    .seach-input{
-      width: 184px;
-      height: 33px;
-      margin-right: 2.5rem;
-     .produkt-text-input{
-        padding: 10px;
-      }
-      #search{
-        @include flex(row, start, center);
-        border: none;
-        border-bottom: solid 1px;
-        background: white;
-        width: 100%;
-        text-align: start;
-
-      }
-
-    }
-
-
+  
+     }
   }
+  //----Sök input container-----// 
+.search-position{
+  @include flex(row, center, center);
+  margin-right: 32px;
+  .seach-input{
+    width: 184px;
+    height: 33px;
+    #search{
+      @include flex(row, start, center);
+      border: none;
+      border-bottom: solid 1px;
+      background: white;
+      width: 100%;
+      text-align: start;
+      .produkt-text-input{
+        font-size: 0.8125rem;
+        padding: 8px 8px 8px 8px;
+        margin-left: 5px;
+      }
+    }
   }
+}
+//----Sök input container slut----//
+}
+}
 }
