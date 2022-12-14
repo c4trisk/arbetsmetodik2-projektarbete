@@ -116,8 +116,8 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam .hidden 
   display: none;
   position: absolute;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover span {
-  border-bottom: solid 1px;
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover #border-dam {
+  border-bottom: 1px solid;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden {
   left: 0;
@@ -127,6 +127,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .h
   z-index: 1;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content {
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -176,6 +177,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content {
   background: white;
+  margin-top: 7px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 75vh;
@@ -229,6 +231,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hove
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content {
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -283,6 +286,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content {
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -340,6 +344,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content {
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -397,6 +402,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content {
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -448,6 +454,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content {
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -499,6 +506,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover 
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content {
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -556,6 +564,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:h
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content {
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;

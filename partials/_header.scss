@@ -139,9 +139,9 @@ header{
         position: absolute;
       }
       .dam:hover{
-           span{
-           border-bottom: solid 1px;
-          }
+           #border-dam{
+            border-bottom: 1px solid;
+           }
           .hidden{
           left: 0;
           display: flex;
@@ -151,7 +151,9 @@ header{
           z-index: 1;
           
           .dam-dropdown-content{
+            margin-top: 7px;
             background: white;
+
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
           grid-template-rows: 80vh;
@@ -210,6 +212,7 @@ header{
       
        .herr-dropdown-content{
         background: white;
+        margin-top: 7px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 75vh;
@@ -280,6 +283,7 @@ header{
 
 
  .divided-dropdown-content{
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -354,6 +358,7 @@ header{
    width: 100vw;
 
  .baby-dropdown-content{
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -422,6 +427,7 @@ header{
    width: 100vw;
 
  .barn-dropdown-content{
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -489,6 +495,7 @@ header{
   width: 100vw;
 
  .home-dropdown-content{
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -553,6 +560,7 @@ header{
     width: 100vw;
 
  .beauty-dropdown-content{
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -622,6 +630,7 @@ header{
    width: 100vw;
    
    .sport-dropdown-content{
+    margin-top: 7px;
     background: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -687,12 +696,13 @@ header{
 
    .hidden-hallbarhet{
    left: 0;
-  display: flex;
+   display: flex;
    flex-direction: column;
-  z-index: 1;
-  width: 100vw;
+   z-index: 1;
+   width: 100vw;
 
  .hallbarhet-dropdown-content{
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -700,26 +710,20 @@ header{
   border-bottom: 7px solid;
 
   .hallbarhet-dropdown-content-left{
-    
     margin-top: 30px;
-    
     p{padding-top: 6px;
     }
-
   }
+
   .hallbarhet-dropdown-content-mid-left{
     margin-top: 30px;
-    
     p{padding-top: 6px;
     }
-
     .hallbarhet-engagemang{
       margin-top: 30px
     }
-
-
   }
-}
+ }
 }
 }
 // ---Hållbarhet Dropdown slutar här ------// 
