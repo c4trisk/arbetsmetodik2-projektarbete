@@ -314,26 +314,6 @@ main {
   font-size: 22px;
 }
 
-body {
-  /* width */
-  /* Track */
-  /* Handle */
-  /* Handle on hover */
-}
-body ::-webkit-scrollbar {
-  width: 10px;
-  height: 5px;
-}
-body ::-webkit-scrollbar-track {
-  background: #ffffff;
-}
-body ::-webkit-scrollbar-thumb {
-  background: rgb(228, 228, 228);
-}
-body ::-webkit-scrollbar-thumb:hover {
-  background: rgb(184, 184, 184);
-}
-
 .stilinspiration {
   width: 100vw;
   margin-top: 20px;
@@ -612,64 +592,77 @@ body ::-webkit-scrollbar-thumb:hover {
   align-items: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-.magazine-container {
+.magazine .magazine-container {
   width: 1008px;
   text-align: center;
 }
-
-.heading {
+.magazine .heading {
   font-size: 42px;
   margin-bottom: 5px;
 }
-
-.subheading {
+.magazine .subheading {
   font-weight: normal;
   font-size: 13px;
   margin-bottom: 10px;
 }
-
-.magazine-link {
+.magazine .magazine-link {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
-
-.magazine-articles {
+.magazine .magazine-articles {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
-
-.magazine-article {
+.magazine .magazine-article {
   width: 320px;
   height: 377px;
   background-color: white;
 }
-.magazine-article img {
+.magazine .magazine-article img {
   width: 320px;
 }
-.magazine-article .img-div {
+.magazine .magazine-article .img-div {
   margin-top: 20px;
   height: 122px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.magazine-article .magazine-flex {
+.magazine .magazine-article .magazine-flex {
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.magazine-article .article-heading {
+.magazine .magazine-article .article-heading {
   font-weight: bold;
   width: 260px;
 }
-
-.read-the-story {
+.magazine .read-the-story {
   display: flex;
   gap: 10px;
+}
+
+body {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+body ::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+body ::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+body ::-webkit-scrollbar-thumb {
+  background: rgb(228, 228, 228);
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgb(184, 184, 184);
 }
 
 footer {
@@ -757,8 +750,193 @@ footer {
   display: flex;
 }
 
+h1 {
+  font-size: 11px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.top-info {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+.left-nav {
+  width: 200px;
+  margin-left: 30px;
+}
+.left-nav ul {
+  list-style: none;
+  font-size: 15px;
+  width: 170px;
+  margin-bottom: 24px;
+}
+.left-nav li {
+  margin-bottom: 8px;
+}
+.left-nav li:first-of-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.left-nav ul li:hover {
+  color: #e50010;
+  text-decoration: underline;
+}
+
+.main-section {
+  width: 912px;
+}
+
+.chalet-chic {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/ladies_s06/december_2022/1086f/1086F-3x2.jpg]&scale=size[795]&sink=format[jpeg],quality[80]");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 912px;
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  color: white;
+}
+.chalet-chic .article-box {
+  background-color: #222;
+  border-radius: 5px 0 0 5px;
+  width: 194px;
+  height: 94px;
+  align-self: flex-end;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.chalet-chic .chalet-chic-btn {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+}
+.chalet-chic .chalet-chic-btn h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.chalet-chic .chalet-chic-btn button {
+  margin-top: 16px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.chalet-chic .chalet-chic-btn button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.banner-30 {
+  width: 100%;
+  height: 183px;
+  background-color: #f1ebdf;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 17px;
+  margin-bottom: 30px;
+}
+.banner-30 h2 {
+  color: #e50010;
+  font-size: 28px;
+  margin-bottom: 8px;
+  margin-top: 22px;
+}
+.banner-30 .buttons {
+  margin-top: 10px;
+}
+.banner-30 .buttons button {
+  background: none;
+  padding: 8px;
+  outline: none;
+  border: 1px solid black;
+  margin: 5px;
+}
+.banner-30 .buttons button:hover {
+  text-decoration: underline;
+}
+
+.campaign-teaser.innovation {
+  width: 912px;
+  margin-bottom: 30px;
+}
+
+.pyjamas {
+  width: 912px;
+  height: 608px;
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/ladies_s06/december_2022/1126p/1126P-3x2-.jpg]&scale=size[795]&sink=format[jpeg],quality[80]");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+.pyjamas .text {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.pyjamas h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.pyjamas button {
+  margin-top: 25px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.pyjamas button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.damklader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.damklader h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.damklader p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 22px;
+}
+.damklader .lasmer {
+  text-decoration: underline;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }/*# sourceMappingURL=style.css.map */
