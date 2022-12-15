@@ -14,6 +14,7 @@ header{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   white-space: nowrap;
  
+ 
   svg{
     height: 22px;
     width: 23px
@@ -35,15 +36,14 @@ header{
    
    .top-menu{
     margin-top: 16px;
-   
-    ul li{
-      font-size: .8125rem;
-      // padding: 1%;
-    }
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 68px;
-
+   
+    ul li{
+      font-size: .8125rem;
+    }
+    
 //  Top Menu Left Content  //
 
    .sidnavigering{
@@ -93,13 +93,15 @@ header{
     }
   }
  
-
-
-
 //----- BOTTOM NAV MENU ------// 
 
   .bot-menu{
+   
     margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+    grid-template-rows: 40px;
+    
     ul li{
       font-size: 1rem;
     }
@@ -118,74 +120,60 @@ header{
       font-weight: bold;
     }
 
-    display: grid;
-    grid-template-columns: 2fr 10fr 2fr;
-    grid-template-rows: 40px;
-
     .produkt-kategori-styling{
        @include flex(row, center, center);
       
        .produkt-kategorier{
         @include flex(row, center, center);
-        
-        .dam, .herr, .divided, .baby, .barn, .home, .beauty, .sport, .brands, .hallbarhet{
+        .dam2, .herr2, .divided, .baby, .barn, .home, .beauty, .sport, .brands, .hallbarhet{
           padding: 0 20px;
         }
 
 //--------- Dam dropdown content----------//
 
-      .dam .hidden{
+      .dam2 .dam-hidden2{
         display: none;
         position: absolute;
       }
-      .dam:hover{
-           #border-dam{
+      .dam2:hover{
+           span{
             border-bottom: 1px solid;
            }
-          .hidden{
-          left: 0;
-          display: flex;
-          flex-direction: column;
+          .dam-hidden2{
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            width: 100vw;
           
-          width: 100vw;
-          z-index: 1;
-          
-          .dam-dropdown-content{
-            margin-top: 7px;
+          .dam-dropdown-content2{
+            margin-top: 25px;
             background: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            // grid-template-rows: 80vh;
+            border-bottom: 7px solid;
 
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-          grid-template-rows: 80vh;
-          border-bottom: 7px solid;
-
-          .dam-dropdown-content-left{
-            margin-top: 30px;
-            p{padding-top: 6px;
+          .dam-dropdown-content-left2{
+           p{padding-top: 6px;
             }
-
-            .christmas, .party, .gifts{
+            .dam-christmas2, .dam-party2, .dam-gifts2{
               margin-top: 30px;
             }
           }
 
-          .dam-dropdown-content-mid{
-             margin-top: 30px;
-             p{padding-top: 6px;
+          .dam-dropdown-content-mid2{
+            margin-bottom: 25px;
+            p{padding-top: 6px;
            }
           }
 
-          .dam-dropdown-content-right{
-            margin-top: 30px;
+          .dam-dropdown-content-right2{
            p{padding-top: 6px;
             }
-            .second-hand, .hallbarhet-dropdown, .magazine-dropdown{
+            .dam-second-hand2, .dam-hallbarhet2, .dam-magazine2{
               margin-top: 30px;
             }
-            }
-             
-           .tom {
-             margin-top: 30px;
             }
         }
        }
@@ -195,67 +183,58 @@ header{
 
 //--------- Herr Dropdown Content-------------// 
 
-       .herr .hidden-herr{
+       .herr2 .hidden-herr2{
         display: none;
         position: absolute;
       }
-      .herr:hover{
+      .herr2:hover{
         span{
           border-bottom: 1px solid;
         }
-        .hidden-herr{
+        .hidden-herr2{
          left: 0;
          display: flex;
          flex-direction: column;
          z-index: 1;
           width: 100vw;
       
-       .herr-dropdown-content{
+       .herr-dropdown-content2{
         background: white;
-        margin-top: 7px;
+        margin-top: 25px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 75vh;
+        // grid-template-rows: 75vh;
         border-bottom: 7px solid;
 
-        .herr-dropdown-content-left{
-          margin-top: 30px;
+        .herr-dropdown-content-left2{
          
           p{padding-top: 6px;
           }
 
-          .herr-essentials, .winter-lookbook, .herr-trendigt{
+          .herr-essentials2, .herr-winter-lookbook2, .herr-trendigt2{
            margin-top: 35px;
         }
         }
 
-        .herr-dropdown-content-mid-left{
-          margin-top: 30px;
+        .herr-dropdown-content-mid-left2{
           p{padding-top: 6px;
          }
         }
-        .herr-dropdown-content-mid-right{
-        margin-top: 30px;
+        .herr-dropdown-content-mid-right2{
         p{padding-top: 6px;
          }
 
         }
-
-
-        .herr-dropdown-content-right{
-          margin-top: 30px;
+         .herr-dropdown-content-right2{
           // border: 2px solid white;
+          margin-bottom: 25px;
           p{padding-top: 6px;
           }
-          .herr-second-hand, .herr-hallbarhet-dropdown, .herr-magazine-dropdown{
+          .herr-second-hand2, .herr-hallbarhet-dropdown2, .herr-magazine-dropdown2{
             margin-top: 35px;
           }
           }
-         .herr-tom {
-           margin-top: 30px;
-          //  border: 2px solid;
-          }
-      }
+       }
      }
      }
     
@@ -267,7 +246,6 @@ header{
 .divided .hidden-divided{
   display: none;
   position: absolute;
-
 }
 .divided:hover{
   span{
@@ -280,18 +258,15 @@ header{
    z-index: 1;
    width: 100vw;
    
-
-
- .divided-dropdown-content{
-  margin-top: 7px;
+  .divided-dropdown-content{
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
+  // grid-template-rows: 75vh;
   border-bottom: 7px solid;
   
    .divided-dropdown-content-left{
-    margin-top: 30px;
     p{padding-top: 6px;
     }
 
@@ -299,38 +274,22 @@ header{
       margin-top: 35px;
     }
     }
-  
-
-  .divided-dropdown-content-mid-left{
-   margin-top: 30px;
+    .divided-dropdown-content-mid-left{
     p {padding-top: 6px;
+   }
   }
-}
-
-.divided-dropdown-content-mid-right{
-  margin-top: 30px;
-   p {padding-top: 6px;
- }
-.divided-hallbarhet, .divided-gifts{
+ .divided-dropdown-content-mid-right{
+   margin-bottom: 25px;
+  p {padding-top: 6px;
+  }
+  .divided-hallbarhet, .divided-gifts{
   margin-top: 35px;
-}
-}
-
+  }
+  }
   .divided-dropdown-content-right{
-    
-    margin-top: 30px;
-
-    p{padding-top: 6px;
-    }
-
-    // .divided-hallbarhet{
-    //   margin-top: 35px;
-    // }
-    }
-    .divided-tom {
-      margin-top: 30px;
-     }
-
+   p{padding-top: 6px;
+  }
+ }
 }
 }
 }
@@ -358,15 +317,14 @@ header{
    width: 100vw;
 
  .baby-dropdown-content{
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
+  // grid-template-rows: 75vh;
   border-bottom: 7px solid;
 
   .baby-dropdown-content-left{
-    margin-top: 30px;
     p{padding-top: 6px;
     }
     .hmbaby, .baby-populart, .baby-gifts{
@@ -376,7 +334,6 @@ header{
 
   .baby-dropdown-content-mid-left{
     
-    margin-top: 30px;
    p{padding-top: 6px;
     }
      .baby-flicka{
@@ -385,7 +342,7 @@ header{
    }
 
  .baby-dropdown-content-mid-right{
-  margin-top: 30px;
+  margin-bottom: 25px;
   p{padding-top: 6px;
     }
     .baby-produkter{
@@ -393,16 +350,12 @@ header{
     }
   }
   .baby-dropdown-content-right{
-    margin-top: 30px;
      p{padding-top: 6px;
     }
     .baby-secondhand, .baby-hallbarhet{
       margin-top: 30px;
     }
-
   }
-
- 
 }
 }
 }
@@ -427,15 +380,14 @@ header{
    width: 100vw;
 
  .barn-dropdown-content{
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
+  // grid-template-rows: 75vh;
   border-bottom: 7px solid;
 
   .barn-dropdown-content-left{
-    margin-top: 30px;
     p{padding-top: 6px;
     }
     .hmbarn, .barn-populart, .barn-gifts, .barn-flicka2-8{
@@ -444,7 +396,6 @@ header{
   }
 
   .barn-dropdown-content-mid-left{
-    margin-top: 30px;
     p{padding-top: 6px;
    }
    .barn-flicka9-14{
@@ -453,7 +404,7 @@ header{
   }
 
   .barn-dropdown-content-mid-right{
-    margin-top: 30px;
+    
     p{padding-top: 6px;
    }
    .barn-produkter, .barn-leksaker, .barn-kroppsvard{
@@ -461,7 +412,7 @@ header{
    }
   }
   .barn-dropdown-content-right{
-    margin-top: 30px;
+    margin-bottom: 25px;
     p{padding-top: 6px;
    }
    .barn-varumarken, .barn-secondhand, .barn-hallbarhet{
@@ -495,15 +446,14 @@ header{
   width: 100vw;
 
  .home-dropdown-content{
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
+  // grid-template-rows: 75vh;
   border-bottom: 7px solid;
 
   .home-dropdown-content-left{
-    margin-top: 30px;
     p{padding-top: 6px;
     }
     .home-rum, .home-trend{
@@ -513,21 +463,17 @@ header{
 
   }
   .home-dropdown-content-mid-left{
-    margin-top: 30px;
     p{padding-top: 6px;
    }
   }
   .home-dropdown-content-mid-right{
-    margin-top: 30px;
+    margin-bottom: 25px;
     p{padding-top: 6px;
    }
   }
 
   .home-dropdown-content-right{
-    
-    margin-top: 30px;
-
-   p{padding-top: 6px;
+  p{padding-top: 6px;
     }
     .home-koncept, .home-hallbarhet{
       margin-top: 30px;
@@ -560,15 +506,14 @@ header{
     width: 100vw;
 
  .beauty-dropdown-content{
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
+  // grid-template-rows: 75vh;
   border-bottom: 7px solid;
 
   .beauty-dropdown-content-left{
-    margin-top: 30px;
     p{padding-top: 6px;
     }
 
@@ -579,33 +524,26 @@ header{
   }
 
    .beauty-dropdown-content-mid-left{
-    
-    margin-top: 30px;
+    margin-bottom: 25px;
     p{padding-top: 6px;
    }
  }
 
     .beauty-dropdown-content-mid-right{
     
-   margin-top: 30px;
   p{padding-top: 6px;
    }
    }
 
   .beauty-dropdown-content-right{
     
-    margin-top: 30px;
 
     p{padding-top: 6px;
     }
     .beauty-secondhand{
       margin-top: 30px;
     }
-
-    
-    }
-
-
+}
 }
 }
 }
@@ -630,20 +568,19 @@ header{
    width: 100vw;
    
    .sport-dropdown-content{
-    margin-top: 7px;
+    margin-top: 25px;
     background: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 75vh;
+    // grid-template-rows: 75vh;
     border-bottom: 7px solid;
     
     .sport-dropdown-content-left{
-      margin-top: 30px;
       p{padding-top: 6px;
       }
     }
     .sport-dropdown-content-mid-left{
-      margin-top: 30px;
+      margin-bottom: 25px;
       p{padding-top: 6px;
       }
       .sport-barn{
@@ -651,7 +588,6 @@ header{
       }
     }
     .sport-dropdown-content-mid-right{
-      margin-top: 30px;
       p{padding-top: 6px;
       }
       .sport-secondhand{
@@ -659,7 +595,6 @@ header{
       }
     }
     .sport-dropdown-content-right{
-      margin-top: 30px;
       p{padding-top: 6px;
       }
       .sport-gifts{
@@ -702,21 +637,21 @@ header{
    width: 100vw;
 
  .hallbarhet-dropdown-content{
-  margin-top: 7px;
+  margin-top: 30px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
+  // grid-template-rows: 75vh;
   border-bottom: 7px solid;
 
   .hallbarhet-dropdown-content-left{
-    margin-top: 30px;
+    margin-bottom: 25px;
     p{padding-top: 6px;
     }
   }
 
   .hallbarhet-dropdown-content-mid-left{
-    margin-top: 30px;
+    
     p{padding-top: 6px;
     }
     .hallbarhet-engagemang{
