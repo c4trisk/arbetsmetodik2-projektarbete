@@ -1,0 +1,76 @@
+.brands {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-size: 40px;
+  }
+  
+  .brands-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons {
+    display: flex;
+    gap: 8px;
+    margin: 32px;
+    button {
+      background: none;
+      padding: 8px 16px;
+      border-radius: 25px;
+      border: 1px solid black;
+      outline: none
+    }
+    
+    .active {
+      background-color: #e50010;
+      border: none;
+      color: white;
+      font-weight: bold;
+    } 
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap:15px;
+    margin-bottom: 32px;
+  }
+
+  .brand-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 676px;
+    height: 62px;
+    top: 0px;
+    position: sticky;
+    background-color: #faf9f8;
+
+    li:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .varumarken-listor{
+    align-self: flex-start;
+    margin-bottom: 30px;
+    ul {
+      flex-direction: column;
+      text-transform: capitalize;
+    }
+
+    li:first-of-type {
+      font-weight: bold;
+    }
+
+    .divider {
+      width: 676px;
+      height: 2px;
+      background-color: #dddddd;
+      margin-bottom: 18px;
+    }
+  }
+}
