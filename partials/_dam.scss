@@ -9,8 +9,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 16px;
+  margin-top: 10px;
 }
-.main {
+.dam {
   display: flex;
   gap: 20px;
 }
@@ -41,7 +43,7 @@ h1 {
   }
 }
 
-.main-section {
+.dam-content {
   // border: 1px solid blue;
   width: 912px;
 }
