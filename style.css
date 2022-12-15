@@ -127,10 +127,11 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .h
   z-index: 1;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content {
-  margin-top: 20px;
+  margin-top: 7px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80vh;
   border-bottom: 7px solid;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-left {
@@ -1399,6 +1400,158 @@ h1 {
   text-decoration: underline;
 }
 
+.beauty-main {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.beauty-content {
+  width: 912px;
+}
+.beauty-content .article {
+  color: white;
+  margin-bottom: 30px;
+}
+.beauty-content .article .grey-box {
+  align-self: flex-end;
+  width: 163px;
+  height: 74px;
+  padding: 16px;
+  background-color: #222;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 55px;
+  margin-top: 180px;
+}
+.beauty-content .article .grey-box p {
+  margin-bottom: 4px;
+}
+.beauty-content .article .grey-box .red {
+  color: #e50010;
+}
+.beauty-content .article .grey-box .lined {
+  text-decoration: line-through;
+}
+.beauty-content .article .grey-box.article-2 {
+  width: 102px;
+  align-self: flex-start;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.beauty-content .article .grey-box.article-3 {
+  width: 120px;
+  align-self: flex-start;
+  margin-top: 125px;
+  margin-left: 75px;
+}
+.beauty-content .article .article-img {
+  width: 912px;
+  height: 608px;
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7296c/7296C-SE-3x2-weekend-deal-up-to-50-off-selected-beauty.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+}
+.beauty-content .article .article-img.article-2 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7236c/7236C-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.beauty-content .article .article-img.article-3 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7306z/7306Z-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.beauty-content .article .text-center {
+  width: 912px;
+  height: 53%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+  text-align: center;
+}
+.beauty-content .article .text-center h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+.beauty-content .article .text-center button {
+  background-color: white;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-top: 22px;
+}
+.beauty-content .article .text-center.article-2 {
+  padding-top: 70px;
+}
+.beauty-content .article .text-center.article-3 {
+  padding-top: 40px;
+}
+
+.sport-main {
+  width: 100vw;
+  display: flex;
+  gap: 30px;
+}
+
+.sport-content {
+  width: 912px;
+}
+.sport-content .article {
+  color: white;
+  margin-bottom: 30px;
+}
+.sport-content .article .grey-box {
+  align-self: flex-end;
+  width: 216px;
+  height: 74px;
+  padding: 16px;
+  background-color: #222;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.sport-content .article .grey-box p {
+  margin-bottom: 4px;
+}
+.sport-content .article .grey-box.article-2 {
+  align-self: flex-start;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.sport-content .article .article-img {
+  width: 912px;
+  height: 608px;
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sport-s06/november_2022/7466cd/7466e-mixed/7466-hmmove-ski-and-snowboard-MIXED-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+}
+.sport-content .article .article-img.article-2 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sport-s06/november_2022/7476a--slow-flow/7476A-3x2-high-shine-by-hmmove.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.sport-content .article .text-center {
+  width: 912px;
+  height: 40%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+  text-align: center;
+}
+.sport-content .article .text-center h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+.sport-content .article .text-center button {
+  background-color: white;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-top: 18px;
+}
+
 .brands {
   width: 100%;
   display: flex;
@@ -1608,4 +1761,8 @@ h1 {
 }
 * a {
   color: black;
+}
+
+body {
+  background-color: #faf9f8;
 }/*# sourceMappingURL=style.css.map */
