@@ -618,25 +618,25 @@ header{
 // ---&Brands Dropdown slutar här ------//
 
 // ---Hållbarhet Dropdown  ------// 
-.hallbarhet .hidden-hallbarhet{
+.hallbarhet2 .hidden-hallbarhet2{
   display: none;
   position: absolute;
 
 }
-.hallbarhet:hover{
+.hallbarhet2:hover{
   
   span{
     border-bottom: 1px solid;
   }
 
-   .hidden-hallbarhet{
+   .hidden-hallbarhet2{
    left: 0;
    display: flex;
    flex-direction: column;
    z-index: 1;
    width: 100vw;
 
- .hallbarhet-dropdown-content{
+ .hallbarhet-dropdown-content2{
   margin-top: 30px;
   background: white;
   display: grid;
@@ -662,13 +662,7 @@ header{
 }
 }
 // ---Hållbarhet Dropdown slutar här ------// 
-
-      
-
-    
-
-  
-     }
+}
   }
   //----Sök input container-----// 
 .search-position{

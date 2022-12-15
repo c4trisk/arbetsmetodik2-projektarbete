@@ -463,37 +463,37 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover 
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .brands:hover span {
   border-bottom: 1px solid;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet .hidden-hallbarhet {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet2 .hidden-hallbarhet2 {
   display: none;
   position: absolute;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover span {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet2:hover span {
   border-bottom: 1px solid;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet2:hover .hidden-hallbarhet2 {
   left: 0;
   display: flex;
   flex-direction: column;
   z-index: 1;
   width: 100vw;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet2:hover .hidden-hallbarhet2 .hallbarhet-dropdown-content2 {
   margin-top: 30px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   border-bottom: 7px solid;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content .hallbarhet-dropdown-content-left {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet2:hover .hidden-hallbarhet2 .hallbarhet-dropdown-content2 .hallbarhet-dropdown-content-left {
   margin-bottom: 25px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content .hallbarhet-dropdown-content-left p {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet2:hover .hidden-hallbarhet2 .hallbarhet-dropdown-content2 .hallbarhet-dropdown-content-left p {
   padding-top: 6px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content .hallbarhet-dropdown-content-mid-left p {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet2:hover .hidden-hallbarhet2 .hallbarhet-dropdown-content2 .hallbarhet-dropdown-content-mid-left p {
   padding-top: 6px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content .hallbarhet-dropdown-content-mid-left .hallbarhet-engagemang {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet2:hover .hidden-hallbarhet2 .hallbarhet-dropdown-content2 .hallbarhet-dropdown-content-mid-left .hallbarhet-engagemang {
   margin-top: 30px;
 }
 header nav .bot-menu .search-position {
