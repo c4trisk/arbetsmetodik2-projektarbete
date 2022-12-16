@@ -1167,7 +1167,7 @@ h1 {
 }
 
 .dam-content {
-  width: 912px;
+  width: 100%;
 }
 
 .chalet-chic {
@@ -1219,7 +1219,7 @@ h1 {
 }
 
 .banner-30 {
-  width: 100%;
+  width: 912px;
   height: 183px;
   background-color: #f1ebdf;
   font-size: 12px;
@@ -1296,6 +1296,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 912px;
 }
 .damklader h2 {
   font-size: 42px;
@@ -1533,7 +1534,7 @@ h1 {
 }
 
 .masthead-hallbarhet {
-  width: 1440px;
+  width: 100%;
   height: 810px;
   color: white;
   background-image: url("https://www2.hm.com/content/dam/sustainability-site/startpage/9501-CPD-01_16x9-sustainability-destination.jpg");
@@ -1564,7 +1565,10 @@ h1 {
 }
 
 .hallbarhet-content {
-  width: 1030px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hallbarhet-content .article-img {
   width: 1030px;
@@ -1596,7 +1600,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
 }
 .hallbarhet-content .banner {
-  width: 100%;
+  width: 1030px;
   height: 200px;
   background-color: #222;
   color: white;
@@ -1615,6 +1619,7 @@ h1 {
 }
 
 .article-trio-1 {
+  width: 1030px;
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
