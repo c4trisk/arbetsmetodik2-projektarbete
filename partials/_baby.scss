@@ -1,0 +1,71 @@
+.baby-main {
+  display: flex;
+  gap: 20px;
+}
+
+.baby-content {
+  width: 912px;
+  display: flex;
+  flex-direction: column;
+
+  .article{
+    width: 912px;
+    height: 608px;
+    background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/TCK6024-3x2.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .article.nr2 {background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/LOCAL%20ACTIVITIES/neu-site/Image_1121821002_Kids_3x2_2.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");}
+  .article.nr3 {background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/TCK6023-3x2.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");}
+  .article.nr4 {background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/hm/TOOLBOX/Local%20Activities/2022_s05/february_2022/4143-hm-baby-TCK3038-SGI-3x2.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");}
+  .article.nr5 {background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/6195/6195-3x2-baby.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");}
+
+  .text-center {
+    width: 912px;
+    height: 53%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+    text-align: center;
+    h2 {
+      margin-top: 140px;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    button {
+      background-color: white;
+      padding: 8px;
+      border: none;
+      outline: none;
+      margin-top: 22px;
+    }
+  }
+
+  .text-center.large-heading {
+    h2 {font-size: 42px;}
+  }
+  .text-center.large-p {
+    p {font-size: 20px;}
+  }
+  .text-center.large-heading.extra {
+    h3{margin-top: 120px; font-size: 15px;}
+    h2{margin-top: 2px;}
+  }
+
+
+  .banner {
+    margin-bottom: 30px;
+    h2 {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .link {text-align: center; margin-top: 50px;}
+    .underlined{text-decoration: underline;}
+  }
+}
