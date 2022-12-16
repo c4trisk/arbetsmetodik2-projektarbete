@@ -109,112 +109,89 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier {
   justify-content: center;
   align-items: center;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .brands, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .brands, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet {
   padding: 0 20px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam .hidden {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2 .dam-hidden2 {
   display: none;
   position: absolute;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover #border-dam {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover span {
   border-bottom: 1px solid;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden {
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  z-index: 1;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content {
-  margin-top: 7px;
-  background: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 80vh;
-  border-bottom: 7px solid;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-left {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-left p {
-  padding-top: 6px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-left .christmas, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-left .party, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-left .gifts {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-mid {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-mid p {
-  padding-top: 6px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-right {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-right p {
-  padding-top: 6px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-right .second-hand, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-right .hallbarhet-dropdown, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .dam-dropdown-content-right .magazine-dropdown {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam:hover .hidden .dam-dropdown-content .tom {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr .hidden-herr {
-  display: none;
-  position: absolute;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover span {
-  border-bottom: 1px solid;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 {
   left: 0;
   display: flex;
   flex-direction: column;
   z-index: 1;
   width: 100vw;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 {
+  margin-top: 25px;
   background: white;
-  margin-top: 7px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
   border-bottom: 7px solid;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-left {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-left p {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-left2 p {
   padding-top: 6px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-left .herr-essentials, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-left .winter-lookbook, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-left .herr-trendigt {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-left2 .dam-christmas2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-left2 .dam-party2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-left2 .dam-gifts2 {
+  margin-top: 30px;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-mid2 {
+  margin-bottom: 25px;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-mid2 p {
+  padding-top: 6px;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-right2 p {
+  padding-top: 6px;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-right2 .dam-second-hand2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-right2 .dam-hallbarhet2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .dam2:hover .dam-hidden2 .dam-dropdown-content2 .dam-dropdown-content-right2 .dam-magazine2 {
+  margin-top: 30px;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2 .hidden-herr2 {
+  display: none;
+  position: absolute;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover span {
+  border-bottom: 1px solid;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 {
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  width: 100vw;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 {
+  background: white;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-bottom: 7px solid;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-left2 p {
+  padding-top: 6px;
+}
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-left2 .herr-essentials2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-left2 .herr-winter-lookbook2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-left2 .herr-trendigt2 {
   margin-top: 35px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-mid-left {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-mid-left p {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-mid-left2 p {
   padding-top: 6px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-mid-right {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-mid-right p {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-mid-right2 p {
   padding-top: 6px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-right {
-  margin-top: 30px;
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-right2 {
+  margin-bottom: 25px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-right p {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-right2 p {
   padding-top: 6px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-right .herr-second-hand, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-right .herr-hallbarhet-dropdown, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-dropdown-content-right .herr-magazine-dropdown {
+header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-right2 .herr-second-hand2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-right2 .herr-hallbarhet-dropdown2, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr2:hover .hidden-herr2 .herr-dropdown-content2 .herr-dropdown-content-right2 .herr-magazine-dropdown2 {
   margin-top: 35px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .herr:hover .hidden-herr .herr-dropdown-content .herr-tom {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided .hidden-divided {
   display: none;
@@ -231,15 +208,11 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hove
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content {
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
   border-bottom: 7px solid;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-left {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-left p {
   padding-top: 6px;
@@ -247,14 +220,11 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hove
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-left .divided-trend {
   margin-top: 35px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-mid-left {
-  margin-top: 30px;
-}
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-mid-left p {
   padding-top: 6px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-mid-right {
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-mid-right p {
   padding-top: 6px;
@@ -262,14 +232,8 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hove
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-mid-right .divided-hallbarhet, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-mid-right .divided-gifts {
   margin-top: 35px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-right {
-  margin-top: 30px;
-}
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-dropdown-content-right p {
   padding-top: 6px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .divided:hover .hidden-divided .divided-dropdown-content .divided-tom {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby .hidden-baby {
   display: none;
@@ -286,23 +250,16 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content {
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
   border-bottom: 7px solid;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-left {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-left p {
   padding-top: 6px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-left .hmbaby, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-left .baby-populart, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-left .baby-gifts {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-mid-left {
   margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-mid-left p {
@@ -312,15 +269,12 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .
   margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-mid-right {
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-mid-right p {
   padding-top: 6px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-mid-right .baby-produkter {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-right {
   margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .baby:hover .hidden-baby .baby-dropdown-content .baby-dropdown-content-right p {
@@ -344,15 +298,11 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content {
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
   border-bottom: 7px solid;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-left {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-left p {
   padding-top: 6px;
@@ -360,16 +310,10 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-left .hmbarn, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-left .barn-populart, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-left .barn-gifts, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-left .barn-flicka2-8 {
   margin-top: 30px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-mid-left {
-  margin-top: 30px;
-}
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-mid-left p {
   padding-top: 6px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-mid-left .barn-flicka9-14 {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-mid-right {
   margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-mid-right p {
@@ -379,7 +323,7 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .
   margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-right {
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .barn:hover .hidden-barn .barn-dropdown-content .barn-dropdown-content-right p {
   padding-top: 6px;
@@ -402,15 +346,11 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content {
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
   border-bottom: 7px solid;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-left {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-left p {
   padding-top: 6px;
@@ -418,20 +358,14 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-left .home-rum, header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-left .home-trend {
   margin-top: 30px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-mid-left {
-  margin-top: 30px;
-}
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-mid-left p {
   padding-top: 6px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-mid-right {
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-mid-right p {
   padding-top: 6px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-right {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .home:hover .hidden-home .home-dropdown-content .home-dropdown-content-right p {
   padding-top: 6px;
@@ -454,15 +388,11 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content {
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
   border-bottom: 7px solid;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content .beauty-dropdown-content-left {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content .beauty-dropdown-content-left p {
   padding-top: 6px;
@@ -471,19 +401,13 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover
   margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content .beauty-dropdown-content-mid-left {
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content .beauty-dropdown-content-mid-left p {
   padding-top: 6px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content .beauty-dropdown-content-mid-right {
-  margin-top: 30px;
-}
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content .beauty-dropdown-content-mid-right p {
   padding-top: 6px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content .beauty-dropdown-content-right {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .beauty:hover .hidden-beauty .beauty-dropdown-content .beauty-dropdown-content-right p {
   padding-top: 6px;
@@ -506,21 +430,17 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover 
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content {
-  margin-top: 7px;
+  margin-top: 25px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
   border-bottom: 7px solid;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-left {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-left p {
   padding-top: 6px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-mid-left {
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-mid-left p {
   padding-top: 6px;
@@ -528,16 +448,10 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover 
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-mid-left .sport-barn {
   margin-top: 30px;
 }
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-mid-right {
-  margin-top: 30px;
-}
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-mid-right p {
   padding-top: 6px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-mid-right .sport-secondhand {
-  margin-top: 30px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-right {
   margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .sport:hover .hidden-sport .sport-dropdown-content .sport-dropdown-content-right p {
@@ -564,21 +478,17 @@ header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:h
   width: 100vw;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content {
-  margin-top: 7px;
+  margin-top: 30px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
   border-bottom: 7px solid;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content .hallbarhet-dropdown-content-left {
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content .hallbarhet-dropdown-content-left p {
   padding-top: 6px;
-}
-header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content .hallbarhet-dropdown-content-mid-left {
-  margin-top: 30px;
 }
 header nav .bot-menu .produkt-kategori-styling .produkt-kategorier .hallbarhet:hover .hidden-hallbarhet .hallbarhet-dropdown-content .hallbarhet-dropdown-content-mid-left p {
   padding-top: 6px;
