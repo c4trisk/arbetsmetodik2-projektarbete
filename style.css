@@ -1311,6 +1311,456 @@ h1 {
   text-decoration: underline;
 }
 
+.undersida-herr-top-info h1 {
+  font-size: 11px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.undersida-herr-top-info {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.undersida-herr {
+  display: flex;
+  gap: 20px;
+}
+
+.undersida-herr-left-nav {
+  width: 200px;
+  margin-left: 30px;
+}
+.undersida-herr-left-nav ul {
+  list-style: none;
+  font-size: 15px;
+  width: 170px;
+  margin-bottom: 24px;
+}
+.undersida-herr-left-nav li {
+  margin-bottom: 8px;
+}
+.undersida-herr-left-nav li:first-of-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.undersida-herr-left-nav ul li:hover {
+  color: #e50010;
+  text-decoration: underline;
+}
+
+.undersida-herr-content {
+  width: 100%;
+}
+
+.undersida-herr-background-top {
+  background-image: url("/images/herr/herrundersidaA.jpg");
+  border: 2px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 912px;
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  color: white;
+}
+.undersida-herr-background-top .undersida-herr-article-box {
+  background-color: #222;
+  border-radius: 5px 0 0 5px;
+  width: 194px;
+  height: 94px;
+  align-self: flex-end;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.undersida-herr-background-top .undersida-herr-chalet-chic-btn {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+}
+.undersida-herr-background-top .undersida-herr-chalet-chic-btn h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.undersida-herr-background-top .undersida-herr-chalet-chic-btn button {
+  margin-top: 16px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.undersida-herr-background-top .undersida-herr-chalet-chic-btn button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.undersida-herr-background-mid {
+  background-image: url("/images/herr/HMHERR1.jpg");
+  border: 2px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 912px;
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  color: white;
+}
+.undersida-herr-background-mid .undersida-herr-article-box {
+  background-color: #222;
+  border-radius: 5px 0 0 5px;
+  width: 194px;
+  height: 94px;
+  align-self: flex-end;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.undersida-herr-background-mid .undersida-herr-chalet-chic-btn {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+}
+.undersida-herr-background-mid .undersida-herr-chalet-chic-btn h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.undersida-herr-background-mid .undersida-herr-chalet-chic-btn button {
+  margin-top: 16px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.undersida-herr-background-mid .undersida-herr-chalet-chic-btn button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.undersida-herr-background-bot {
+  background-image: url("/images/herr/HMHERR4.jpg");
+  border: 2px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 912px;
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  color: white;
+}
+.undersida-herr-background-bot .undersida-herr-article-box {
+  background-color: #222;
+  border-radius: 5px 0 0 5px;
+  width: 194px;
+  height: 94px;
+  align-self: flex-end;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.undersida-herr-background-bot .undersida-herr-chalet-chic-btn {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+}
+.undersida-herr-background-bot .undersida-herr-chalet-chic-btn h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.undersida-herr-background-bot .undersida-herr-chalet-chic-btn button {
+  margin-top: 16px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.undersida-herr-background-bot .undersida-herr-chalet-chic-btn button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.undersida-herr-banner-30 {
+  width: 912px;
+  height: 183px;
+  background-color: #f1ebdf;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 17px;
+  margin-bottom: 30px;
+}
+.undersida-herr-banner-30 h2 {
+  color: #e50010;
+  font-size: 28px;
+  margin-bottom: 8px;
+  margin-top: 22px;
+}
+.undersida-herr-banner-30 .undersida-herr-buttons {
+  margin-top: 10px;
+}
+.undersida-herr-banner-30 .undersida-herr-buttons button {
+  background: none;
+  padding: 8px;
+  outline: none;
+  border: 1px solid black;
+  margin: 5px;
+}
+.undersida-herr-banner-30 .undersida-herr-buttons button:hover {
+  text-decoration: underline;
+}
+
+.undersida-divided-top-info h1 {
+  font-size: 11px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.undersida-divided-top-info {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.undersida-divided {
+  display: flex;
+  gap: 20px;
+}
+
+.undersida-divided-left-nav {
+  width: 200px;
+  margin-left: 30px;
+}
+.undersida-divided-left-nav ul {
+  list-style: none;
+  font-size: 15px;
+  width: 170px;
+  margin-bottom: 24px;
+}
+.undersida-divided-left-nav li {
+  margin-bottom: 8px;
+}
+.undersida-divided-left-nav li:first-of-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.undersida-divided-left-nav ul li:hover {
+  color: #e50010;
+  text-decoration: underline;
+}
+
+.undersida-divided-content {
+  width: 100%;
+}
+
+.undersida-divided-background-top {
+  background-image: url("/images/divided/divided1.jpg");
+  border: 2px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 912px;
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  color: white;
+}
+.undersida-divided-background-top .undersida-divided-article-box {
+  background-color: #222;
+  border-radius: 5px 0 0 5px;
+  width: 194px;
+  height: 94px;
+  align-self: flex-end;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.undersida-divided-background-top .undersida-divided-chalet-chic-btn {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+}
+.undersida-divided-background-top .undersida-divided-chalet-chic-btn h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.undersida-divided-background-top .undersida-divided-chalet-chic-btn button {
+  margin-top: 16px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.undersida-divided-background-top .undersida-divided-chalet-chic-btn button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.undersida-divided-background-mid {
+  background-image: url("/images/divided/divided2.jpg");
+  border: 2px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 912px;
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  color: white;
+}
+.undersida-divided-background-mid .undersida-divided-article-box {
+  background-color: #222;
+  border-radius: 5px 0 0 5px;
+  width: 194px;
+  height: 94px;
+  align-self: flex-end;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.undersida-divided-background-mid .undersida-divided-chalet-chic-btn {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+}
+.undersida-divided-background-mid .undersida-divided-chalet-chic-btn h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.undersida-divided-background-mid .undersida-divided-chalet-chic-btn button {
+  margin-top: 16px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.undersida-divided-background-mid .undersida-divided-chalet-chic-btn button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.undersida-divided-background-bot {
+  background-image: url("/images/divided/divided3.jpg");
+  border: 2px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 912px;
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  color: white;
+}
+.undersida-divided-background-bot .undersida-divided-article-box {
+  background-color: #222;
+  border-radius: 5px 0 0 5px;
+  width: 194px;
+  height: 94px;
+  align-self: flex-end;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.undersida-divided-background-bot .undersida-divided-chalet-chic-btn {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+}
+.undersida-divided-background-bot .undersida-divided-chalet-chic-btn h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.undersida-divided-background-bot .undersida-divided-chalet-chic-btn button {
+  margin-top: 16px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.undersida-divided-background-bot .undersida-divided-chalet-chic-btn button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.undersida-divided-banner-30 {
+  width: 912px;
+  height: 183px;
+  background-color: #f1ebdf;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 17px;
+  margin-bottom: 30px;
+}
+.undersida-divided-banner-30 h2 {
+  color: #e50010;
+  font-size: 28px;
+  margin-bottom: 8px;
+  margin-top: 22px;
+}
+.undersida-divided-banner-30 .undersida-divided-buttons {
+  margin-top: 10px;
+}
+.undersida-divided-banner-30 .undersida-divided-buttons button {
+  background: none;
+  padding: 8px;
+  outline: none;
+  border: 1px solid black;
+  margin: 5px;
+}
+.undersida-divided-banner-30 .undersida-divided-buttons button:hover {
+  text-decoration: underline;
+}
+
 .baby-main {
   display: flex;
   gap: 20px;
