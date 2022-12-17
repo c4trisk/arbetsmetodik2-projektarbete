@@ -1,0 +1,88 @@
+.beauty-main {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.beauty-content {
+  width: 912px;
+
+  .article {
+    color: white;
+    margin-bottom: 30px;
+    .grey-box {
+      align-self: flex-end;
+      width: 163px;
+      height: 74px;
+      padding: 16px;
+      background-color: #222;
+      border-radius: 5px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-right: 55px;
+      margin-top: 180px;
+
+      p{margin-bottom: 4px;}
+
+      .red {color: #e50010;}
+      .lined {text-decoration: line-through;}
+    }
+
+    .grey-box.article-2 {
+      width: 102px;
+      align-self: flex-start;
+      margin-top: 80px;
+      margin-left: 10px;
+    }
+    .grey-box.article-3 {
+      width: 120px;
+      align-self: flex-start;
+      margin-top: 125px;
+      margin-left: 75px;
+    }
+
+    .article-img {
+      width: 912px;
+      height: 608px;
+      background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7296c/7296C-SE-3x2-weekend-deal-up-to-50-off-selected-beauty.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 90px; 
+    }
+
+    .article-img.article-2 {background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7236c/7236C-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");}
+    .article-img.article-3 {background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7306z/7306Z-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");}
+
+    .text-center {
+      width: 912px;
+      height: 53%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+      text-align: center;
+      h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 42px;
+      }
+
+      button {
+        background-color: white;
+        padding: 8px;
+        border: none;
+        outline: none;
+        margin-top: 22px;
+      }
+    }
+
+    .text-center.article-2 {
+      padding-top: 70px;
+    }
+    .text-center.article-3 {
+      padding-top: 40px;
+    }
+
+  }
+
+}

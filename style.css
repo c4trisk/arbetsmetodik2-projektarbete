@@ -1167,7 +1167,7 @@ h1 {
 }
 
 .dam-content {
-  width: 912px;
+  width: 100%;
 }
 
 .chalet-chic {
@@ -1219,7 +1219,7 @@ h1 {
 }
 
 .banner-30 {
-  width: 100%;
+  width: 912px;
   height: 183px;
   background-color: #f1ebdf;
   font-size: 12px;
@@ -1296,6 +1296,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 912px;
 }
 .damklader h2 {
   font-size: 42px;
@@ -1307,6 +1308,186 @@ h1 {
   line-height: 22px;
 }
 .damklader .lasmer {
+  text-decoration: underline;
+}
+
+.baby-main {
+  display: flex;
+  gap: 20px;
+}
+
+.baby-content {
+  width: 912px;
+  display: flex;
+  flex-direction: column;
+}
+.baby-content .article {
+  width: 912px;
+  height: 608px;
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/TCK6024-3x2.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  margin-bottom: 30px;
+}
+.baby-content .article.nr2 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/LOCAL%20ACTIVITIES/neu-site/Image_1121821002_Kids_3x2_2.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");
+}
+.baby-content .article.nr3 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/TCK6023-3x2.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");
+}
+.baby-content .article.nr4 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/hm/TOOLBOX/Local%20Activities/2022_s05/february_2022/4143-hm-baby-TCK3038-SGI-3x2.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");
+}
+.baby-content .article.nr5 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/6195/6195-3x2-baby.jpg]&scale=size[1440]&sink=format[jpeg],quality[80]");
+}
+.baby-content .text-center {
+  width: 912px;
+  height: 53%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+  text-align: center;
+}
+.baby-content .text-center h2 {
+  margin-top: 140px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+.baby-content .text-center button {
+  background-color: white;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-top: 22px;
+}
+.baby-content .text-center.large-heading h2 {
+  font-size: 42px;
+}
+.baby-content .text-center.large-p p {
+  font-size: 20px;
+}
+.baby-content .text-center.large-heading.extra h3 {
+  margin-top: 120px;
+  font-size: 15px;
+}
+.baby-content .text-center.large-heading.extra h2 {
+  margin-top: 2px;
+}
+.baby-content .banner {
+  margin-bottom: 30px;
+}
+.baby-content .banner h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.baby-content .banner .link {
+  text-align: center;
+  margin-top: 50px;
+}
+.baby-content .banner .underlined {
+  text-decoration: underline;
+}
+
+.barn-main {
+  display: flex;
+  gap: 20px;
+}
+
+.barn-content {
+  width: 912px;
+  display: flex;
+  flex-direction: column;
+}
+.barn-content .article {
+  width: 912px;
+  height: 608px;
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/TCK6018-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  margin-bottom: 30px;
+}
+.barn-content .article.nr2 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/LOCAL%20ACTIVITIES/neu-site/Image_098445203_kids_3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.barn-content .article.nr3 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/TCK6022-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.barn-content .article.nr4 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2022_s06/october_2022/6195/6195-3x2-kids-1.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.barn-content .text-center {
+  width: 912px;
+  height: 53%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+  text-align: center;
+}
+.barn-content .text-center h2 {
+  margin-top: 140px;
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+.barn-content .text-center button {
+  background-color: white;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-top: 22px;
+}
+.barn-content .text-center.large-p p {
+  font-size: 20px;
+}
+.barn-content .text-center.large-heading.extra h3 {
+  margin-top: 120px;
+  font-size: 15px;
+}
+.barn-content .text-center.large-heading.extra h2 {
+  margin-top: 2px;
+}
+.barn-content .adbanner {
+  width: 912px;
+  height: 175px;
+  background-color: #f4eddd;
+  margin-bottom: 30px;
+  color: #e50010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.barn-content .adbanner h2 {
+  font-size: 28px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.barn-content .adbanner .buttons {
+  margin-top: 15px;
+}
+.barn-content .adbanner .buttons button {
+  background: none;
+  border: 1px solid black;
+  outline: none;
+  padding: 8px;
+}
+.barn-content .banner {
+  margin-bottom: 30px;
+}
+.barn-content .banner h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.barn-content .banner .link {
+  text-align: center;
+  margin-top: 50px;
+}
+.barn-content .banner .underlined {
   text-decoration: underline;
 }
 
@@ -1489,6 +1670,158 @@ h1 {
   cursor: pointer;
 }
 
+.beauty-main {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.beauty-content {
+  width: 912px;
+}
+.beauty-content .article {
+  color: white;
+  margin-bottom: 30px;
+}
+.beauty-content .article .grey-box {
+  align-self: flex-end;
+  width: 163px;
+  height: 74px;
+  padding: 16px;
+  background-color: #222;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 55px;
+  margin-top: 180px;
+}
+.beauty-content .article .grey-box p {
+  margin-bottom: 4px;
+}
+.beauty-content .article .grey-box .red {
+  color: #e50010;
+}
+.beauty-content .article .grey-box .lined {
+  text-decoration: line-through;
+}
+.beauty-content .article .grey-box.article-2 {
+  width: 102px;
+  align-self: flex-start;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.beauty-content .article .grey-box.article-3 {
+  width: 120px;
+  align-self: flex-start;
+  margin-top: 125px;
+  margin-left: 75px;
+}
+.beauty-content .article .article-img {
+  width: 912px;
+  height: 608px;
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7296c/7296C-SE-3x2-weekend-deal-up-to-50-off-selected-beauty.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+}
+.beauty-content .article .article-img.article-2 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7236c/7236C-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.beauty-content .article .article-img.article-3 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/beauty_s06/november_2022/7306z/7306Z-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.beauty-content .article .text-center {
+  width: 912px;
+  height: 53%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+  text-align: center;
+}
+.beauty-content .article .text-center h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+.beauty-content .article .text-center button {
+  background-color: white;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-top: 22px;
+}
+.beauty-content .article .text-center.article-2 {
+  padding-top: 70px;
+}
+.beauty-content .article .text-center.article-3 {
+  padding-top: 40px;
+}
+
+.sport-main {
+  width: 100vw;
+  display: flex;
+  gap: 30px;
+}
+
+.sport-content {
+  width: 912px;
+}
+.sport-content .article {
+  color: white;
+  margin-bottom: 30px;
+}
+.sport-content .article .grey-box {
+  align-self: flex-end;
+  width: 216px;
+  height: 74px;
+  padding: 16px;
+  background-color: #222;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.sport-content .article .grey-box p {
+  margin-bottom: 4px;
+}
+.sport-content .article .grey-box.article-2 {
+  align-self: flex-start;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.sport-content .article .article-img {
+  width: 912px;
+  height: 608px;
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sport-s06/november_2022/7466cd/7466e-mixed/7466-hmmove-ski-and-snowboard-MIXED-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+}
+.sport-content .article .article-img.article-2 {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/sport-s06/november_2022/7476a--slow-flow/7476A-3x2-high-shine-by-hmmove.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+}
+.sport-content .article .text-center {
+  width: 912px;
+  height: 40%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 80%);
+  text-align: center;
+}
+.sport-content .article .text-center h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+.sport-content .article .text-center button {
+  background-color: white;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-top: 18px;
+}
+
 .brands {
   width: 100%;
   display: flex;
@@ -1560,7 +1893,7 @@ h1 {
 }
 
 .masthead-hallbarhet {
-  width: 1440px;
+  width: 100%;
   height: 810px;
   color: white;
   background-image: url("https://www2.hm.com/content/dam/sustainability-site/startpage/9501-CPD-01_16x9-sustainability-destination.jpg");
@@ -1591,7 +1924,10 @@ h1 {
 }
 
 .hallbarhet-content {
-  width: 1030px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hallbarhet-content .article-img {
   width: 1030px;
@@ -1623,7 +1959,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
 }
 .hallbarhet-content .banner {
-  width: 100%;
+  width: 1030px;
   height: 200px;
   background-color: #222;
   color: white;
@@ -1642,6 +1978,7 @@ h1 {
 }
 
 .article-trio-1 {
+  width: 1030px;
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
@@ -1698,4 +2035,8 @@ h1 {
 }
 * a {
   color: black;
+}
+
+body {
+  background-color: #faf9f8;
 }/*# sourceMappingURL=style.css.map */
