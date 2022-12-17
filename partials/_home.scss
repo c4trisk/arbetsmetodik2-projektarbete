@@ -1,0 +1,121 @@
+@mixin background-styling {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+@mixin campaign-teaser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0rem 4rem 0rem;
+  color: #fff;
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.1875;
+    margin-bottom: 10px;
+    letter-spacing: 0.9px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 18px;
+    letter-spacing: 0.6px;
+  }
+}
+
+.home {
+  display: flex;
+  gap: 20px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  width: 912px;
+}
+
+.ljuslykta-campaign-teaser {
+  @include background-styling();
+  display: flex;
+  flex-direction: column;
+  height: 608px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    url(./images/upptackljuslykta.jpeg);
+  .ljus-teaser-box {
+    width: max-content;
+    position: relative;
+    top: 330px;
+    left: 500px;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+    line-height: 1.25;
+    border-radius: 4px;
+  }
+  .campaign-teaser-text {
+    @include campaign-teaser();
+    position: relative;
+    top: 317px;
+  }
+}
+
+.uncommon-matters {
+  @include background-styling();
+  background-image: url(./images/uncommonmatters.jpeg);
+  .campaign-teaser-text {
+    @include campaign-teaser();
+    padding: 1rem;
+    h2 {font-weight: 400;}
+    p {font-size: 0.7rem; font-weight: 100;}
+  }
+}
+
+.mysiga-stunder {
+  @include background-styling();
+  height: 608px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    url(./images/dekoreramysigastunder.jpeg);
+  .campaign-teaser-text {
+    @include campaign-teaser();
+    position: relative;
+    top: 390px;
+    height: max-content;
+    p {font-size: 13px; font-weight: 100;}
+    a {font-weight: 400;}
+  }
+}
+
+.home-shoppanu {
+  padding: 8px;
+  text-decoration: none;
+  background-color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  &:hover {background-color: #f1f1f1;}
+}
+
+.home-inredning-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {font-size: 42px; margin-bottom: 30px; letter-spacing: .9px;}
+  p {font-size: 14px; margin-bottom: 30px; line-height: 22px;
+    span {text-decoration: underline; cursor: pointer;}}
+  #home-lasmer {text-decoration: underline; cursor: pointer;}
+}
