@@ -10,6 +10,9 @@
 //  }
 
 header{
+
+  background-color: #faf9f8;
+
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   white-space: nowrap;
@@ -148,7 +151,7 @@ header{
           
           .dam-dropdown-content2{
             margin-top: 25px;
-            background: white;
+            background-color: #faf9f8;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
             // grid-template-rows: 80vh;
@@ -199,7 +202,7 @@ header{
           width: 100vw;
       
        .herr-dropdown-content2{
-        background: white;
+        background-color: #faf9f8;
         margin-top: 25px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -260,7 +263,7 @@ header{
    
   .divided-dropdown-content{
   margin-top: 25px;
-  background: white;
+  background-color: #faf9f8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   // grid-template-rows: 75vh;
@@ -318,7 +321,7 @@ header{
 
  .baby-dropdown-content{
   margin-top: 25px;
-  background: white;
+  background-color: #faf9f8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   // grid-template-rows: 75vh;
@@ -381,7 +384,7 @@ header{
 
  .barn-dropdown-content{
   margin-top: 25px;
-  background: white;
+  background-color: #faf9f8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   // grid-template-rows: 75vh;
@@ -447,7 +450,7 @@ header{
 
  .home-dropdown-content{
   margin-top: 25px;
-  background: white;
+  background-color: #faf9f8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   // grid-template-rows: 75vh;
@@ -507,7 +510,7 @@ header{
 
  .beauty-dropdown-content{
   margin-top: 25px;
-  background: white;
+  background-color: #faf9f8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   // grid-template-rows: 75vh;
@@ -569,7 +572,7 @@ header{
    
    .sport-dropdown-content{
     margin-top: 25px;
-    background: white;
+    background-color: #faf9f8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     // grid-template-rows: 75vh;
@@ -637,8 +640,8 @@ header{
    width: 100vw;
 
  .hallbarhet-dropdown-content2{
-  margin-top: 30px;
-  background: white;
+  margin-top: 15px;
+  background-color: #faf9f8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   // grid-template-rows: 75vh;
@@ -675,7 +678,7 @@ header{
       @include flex(row, start, center);
       border: none;
       border-bottom: solid 1px;
-      background: white;
+      background-color: #faf9f8;
       width: 100%;
       text-align: start;
       .produkt-text-input{
